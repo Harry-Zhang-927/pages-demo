@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+    color:darkorange; /*注意层级关系*//*与class.box的range*/
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    font: normal 8px talic;
+    line-height:2em;
+    margin: 5px 5px;
+    border: grey dotted;
+    
+
+}
+button{
+    background-color: rgb(235, 15, 15);
+    color: blue;
+    font-size: 10;
+    padding: 10px;
+    margin: 10px;
+    border: 10px gold solid;
+
+}
+.box1{
+    background-color: antiquewhite; 
+    color:blueviolet ;/* Font Color*/
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+    border: 5px rgb(235, 31, 31)solid ;
+    border-right: 20px red dotted;
+    border-left: 20px goldenrod dotted;
+    border-bottom: 5px purple dotted;
+    border-width: 20px;
+    border-top:20px greenyellow dotted;
+    margin-top: 20px;
+   
+
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+
+    
+}
+.list a{
+    text-decoration: double;
+    color: black;
+}
+a:hover{   /*遇见光标变色*/
+    color:brown;
+
+}
+.container{
+    width: 80%;
+    margin:auto;  /*居中*/
+
+}
+.list li{
+    list-style:square;
+    background-color: aquamarine;
+    list-style-image: url('../IMAGE/中华民国.png');/*image 和 css文件夹并列，需要走出css文件夹到image文件夹*/
+    
+
+}
+.block{
+    float:left;
+    width: 33%; /*三个并排*/
+    border: 1px solid black;
+    box-sizing: border-box; /*有边框的box*/ /*otherwise ,it may shift*/
+
+}
+
+#main-block{
+    float:left;
+    width: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+#sidebar{
+    float:left;
+    width: 30%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+.clearfix{
+    clear: both;  /*both----left and right*/
+}
+
+.list2 li:nth-child(even){   /*切忌 li：nth。。。 没有空格！！！*/
+    background-color: grey;
+}
+.list2 li:first-child{
+    background-color: red;
+}
+.list2 li:nth-child(3){
+    color:chartreuse;
+}
+.position-box{
+    width: 500px;
+    height: 500px;
+    border:1px solid black;
+    position: relative;
+
+}
+.position-box h1{
+    position: absolute;
+    top: 50px;
+}
+.position-box h2{
+    position: absolute;
+    top:25px;
+}
+#fixed{
+    position:fixed;
+    bottom:200px;
+}

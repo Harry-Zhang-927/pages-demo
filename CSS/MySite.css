@@ -1,0 +1,274 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.containter {
+    min-height: 410px;
+}
+
+.header {
+    margin-top: 20px;
+    min-height: 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.content{
+    background-color:rgba(255, 255, 255, 0.199);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    height: 410px;
+    margin: 0 0 130px 0;
+    z-index: 0;
+    position: relative;
+}
+
+.Harry{
+    
+    background-color: #F60;
+    margin-left: 180px;
+    font-size: 120px;
+    letter-spacing: 5px;
+    font-family: Courier New, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    border-left:10px solid #292323;
+    border-bottom:2px solid whitesmoke;
+
+
+}
+.Greeting{
+    background-color: #D00000;
+    margin-left: 180px;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-family: Courier New, Helvetica, sans-serif;
+    color:gainsboro;
+    border-right:10px solid #292323;
+}
+
+.Motto{
+    font-size: 27px;
+    margin-top: -27px;
+    margin-left: 200px;
+    letter-spacing: 10px;
+    font-family: Lucida Console;
+    color: 	#006f80;
+}
+
+.Nav {
+    min-height: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Resume{
+    float:left;
+    width:33%;
+    margin:auto 0;
+    height:5px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+.ContectMe{
+    float:left;
+    width:33%;
+    margin:auto 0;
+    height:5px;
+    font-family: Verdana;
+    font-size: 20px;
+    
+}
+.AboutMe{
+    float:left;
+    width:33%;
+    margin:auto 0;
+    height:5px;
+    font-family: Verdana;
+    font-size: 20px;
+    z-index: 1; 
+ 
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	padding: 0 20px;
+	color: rgb(63, 2, 63);
+	display: block;
+}
+
+
+ul {
+	list-style: none;
+	line-height: 40px;
+}
+ 
+a:hover{
+    color: brown;
+}
+
+
+ul li {
+	float: left;
+    
+}
+
+ul li ul li {
+	float: none;
+	display: none;
+}
+
+ul li:hover li {
+	display: block;
+    color: azure;
+}
+
+.Nav a:hover {
+    color: azure;
+	background-color: rgb(14, 14, 105);
+
+}
+ul li ul li a:hover {
+    color: azure;
+}
+
+body{
+    background-image:url("../IMAGE/congruent_pentagon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+/*.Picture{
+    float: left;
+    margin-left: auto;
+    margin-top: 50px;
+    
+}
+*/
+
+
+.footer {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12.5%;
+    margin: auto;
+}
+
+.textphone{
+    background-color:rgba(255, 255, 255, 0.199);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    height: 410px;
+    margin: 0 0 130px 0;
+    z-index: 0;
+    position: relative;
+
+}
+.pn{
+    background: rgb(230, 146, 21) linear-gradient(to right, rgba(0,255,0,0), rgba(240, 255, 25, 0.884));
+    transition: background-color .5s;
+    margin-left: 180px;
+    margin-top:200px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: Courier New, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    border-left:10px solid #292323;
+    border-bottom:2px solid whitesmoke;
+    min-height: 45px;
+}
+.pn:hover {
+    background-color: rgb(185, 26, 14);    
+}
+
+.Phone{
+    background: rgb(5, 170, 192) linear-gradient(to right, rgba(0,255,0,0), rgba(0,255,0,.5));
+    transition: background-color .5s;
+    margin-left: 180px;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-family: Courier New, Helvetica, sans-serif;
+    color:gainsboro;
+    border-right:10px solid #292323;   
+}
+.Phone:hover {
+    background-color: rgb(185, 26, 14);    
+}
+.em{
+    background: rgb(230, 146, 21) linear-gradient(to right, rgba(0,255,0,0), rgba(240, 255, 25, 0.884));
+    transition: background-color .5s;
+    margin-top:200px;
+    margin-right: 180px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: Courier New, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    border-left:10px solid #292323;
+    border-bottom:2px solid whitesmoke;
+    min-height: 45px;
+
+}
+.em:hover {
+    background-color: rgb(185, 26, 14);   
+}
+
+.email{
+    background: rgb(202, 8, 193) linear-gradient(to right, rgba(5, 58, 88, 0), rgba(0, 217, 255, 0.863));
+    transition: background-color .5s;
+    font-size: 80px;
+    letter-spacing: 10px;
+    font-family: Courier New, Helvetica, sans-serif;
+    color:gainsboro;
+    border-right:10px solid #292323;  
+    margin-right: 180px;  
+}
+.email:hover {
+    background-color: rgb(185, 26, 14);    
+}
+.Resumes{
+
+    margin: 100px auto;
+    height:auto;
+    font-family: Lucida Console;
+    font-size: 30px;
+    color: 	#D00000;
+}
+.ResumesGreeting{
+    background: rgb(202, 8, 193) linear-gradient(to right, rgba(5, 58, 88, 0), rgba(0, 217, 255, 0.863));
+    transition: background-color .5s;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: Courier New, Helvetica, sans-serif;
+    color:gainsboro;
+    border-right:10px solid #292323; 
+    border-left:10px solid #292323;  
+    margin-right: 80px; 
+    margin-left: 80px;  
+}
+.ResumesGreeting:hover {
+    background-color: rgb(185, 26, 14);    
+}
+.SendEmail{
+    margin: 100px auto;
+    height:auto;
+    font-family: Lucida Console;
+    font-size: 30px;
+    text-align: center;
+    background-color: bisque;
+    border: 2px solid grey;
+    
+}
+.PhoneContainer{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}

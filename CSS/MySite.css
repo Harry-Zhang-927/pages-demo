@@ -272,3 +272,9 @@ body{
     display: flex;
     align-items: center;
 }
+.CopyRight{
+    text-align: center;
+    font-size: 15px;
+
+
+}
